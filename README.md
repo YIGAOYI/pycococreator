@@ -7,12 +7,12 @@ I added codes for showing the bounding boxes and labels. To show it, I used Jupy
         |__ crestedgecko
         	|__ deployer.ipynb
         	|__ visualize_cg.ipynb
-            		|__ train
-            			|__ annotations
-            				|__ CG_train2018_000000000001_patternless_0.png
-            				|__ instances_crestedgecko_train2018
-            			|__ crestedgecko_train2018
-            				|__ CG_train2018_000000000001.jpg
+            	|__ train
+            		|__ annotations
+            			|__ CG_train2018_000000000001_patternless_0.png
+            			|__ instances_crestedgecko_train2018
+            		|__ crestedgecko_train2018
+            			|__ CG_train2018_000000000001.jpg
         |__ shapes
         	|__ ...	        
 ```
