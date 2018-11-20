@@ -15,10 +15,11 @@ I added codes for showing the bounding boxes and labels. To show it, I used Jupy
             		|__ CG_train2018_000000000001.jpg
         |__ ...	        
 ```
-- deployer.ipynb  
+- [deployer.ipynb](https://github.com/asyncbridge/pycococreator/blob/master/examples/crestedgecko/deployer.ipynb)  
 1) Rename and resize image files.  
 2) Create an annotation file from images and masking images.    
-- visualize_cg.ipynb  
+- [visualize_cg.ipynb](https://github.com/asyncbridge/pycococreator/blob/master/examples/crestedgecko/visualize_cg.ipynb)  
+  
 Show bounding boxes and labels including segmentations from the created annotation file.  
 ![alt text](https://github.com/asyncbridge/pycococreator/blob/master/examples/crestedgecko/output_6_0.png "output")
 
