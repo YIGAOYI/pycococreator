@@ -20,7 +20,7 @@ I added codes for showing the bounding boxes and labels. To show it, I used Jupy
 2) Create an annotation file from images and masking images.    
 - visualize_cg.ipynb  
 Show bounding boxes and labels including segmentations from the created annotation file.  
-![alt text](https://github.com/asyncbridge/pycococreator/tree/master/examples/crestedgecko/output_6_0.png "output")
+![alt text](https://github.com/asyncbridge/pycococreator/blob/master/examples/crestedgecko/output_6_0.png "output")
 
 # pycococreator
 
