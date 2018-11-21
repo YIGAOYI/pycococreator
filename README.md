@@ -24,15 +24,21 @@ I added codes for showing the bounding boxes and labels. To show it, I used Jupy
 Show bounding boxes and labels including segmentations from the created annotation file.  
 ![alt text](https://github.com/asyncbridge/pycococreator/blob/master/examples/crestedgecko/output_6_0.png "output")
 
-# pycococreator
-
-pycococreator is a set of tools to help create [COCO](http://cocodataset.org) datasets. It includes functions to generate annotations in uncompressed RLE ("crowd") and polygons in the format COCO requires.
-
-Read more here https://patrickwasp.com/create-your-own-coco-style-dataset/
-
-![alt text](https://i.imgur.com/iQSPjeC.png "input files")
-![alt text](https://i.imgur.com/py2aYK9.png "output")
-
 # Install
 
-`pip install git+git://github.com/waspinator/pycococreator.git@0.2.0`  
+1. `pip install git+git://github.com/waspinator/pycococreator.git@0.2.0`  
+2. Run Jupyter Notebook.(Set working directory as pycococreator)  
+3. Go to pycococreator/examples/crestedgecko directory.  
+4. Open deployer.ipynb and run it.  
+- instances_crestedgecko_train2018.json annotation file will be created in pycococreator/examples/crestedgecko/train directory.
+5. Copy the annotation file to pycococreator/examples/crestedgecko/annotations directory.
+6. Open visualize_cg.ipynb and run it to show the sample image.  
+- Segmentation, bounding box and label will be drawn on the sample image.  
+
+# License
+This project is made available under the [Apache 2.0 License](https://github.com/asyncbridge/pycococreator/blob/master/LICENSE).  
+  
+It is forked from: [https://github.com/waspinator/pycococreator](https://github.com/waspinator/pycococreator)  
+
+# Reference
+[1] [https://patrickwasp.com/create-your-own-coco-style-dataset](https://patrickwasp.com/create-your-own-coco-style-dataset)
